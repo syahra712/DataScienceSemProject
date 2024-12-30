@@ -81,7 +81,7 @@ def generate_answer(question, context=None):
         return "Error generating response."
 
 # Load CO2 emissions data
-co2_data = pd.read_csv("/Users/admin/Desktop/datasetsNASAPROGRAMS/annual-co2-emissions-per-country.csv")
+co2_data = pd.read_csv('./datasetsNASAPROGRAMS/annual-co2-emissions-per-country.csv')
 
 # Streamlit app
 st.title('🌍 Methane Emissions and CO2 Emissions Visualization with Chatbot')
