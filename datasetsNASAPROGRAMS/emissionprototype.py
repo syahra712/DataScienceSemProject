@@ -13,7 +13,7 @@ API_KEY = "AIzaSyByv_WgXNqmq-oRcneXp_iA-b-t1-XLmkA"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 
 # Paths to your NetCDF files for methane emissions
-base_path = '/Users/admin/Downloads/gridded GHGI/'
+base_path = './datasetsNASAPROGRAMS/gridded GHGI/'
 years = [str(year) for year in range(2012, 2019)]
 file_paths = {year: os.path.join(base_path, f'Gridded_GHGI_Methane_v2_{year}.nc') for year in years}
 
