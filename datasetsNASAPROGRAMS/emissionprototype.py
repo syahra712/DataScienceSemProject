@@ -59,7 +59,7 @@ def load_data(file_path, var_name):
 
 # Function to interact with Gemini API for chatbot-like conversation
 def generate_answer(question, context=None):
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyByv_WgXNqmq-oRcneXp_iA-b-t1-XLmkA"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD7H_krSvS0n3Zg9yvryWaMbqMfGaWp-i0"
     headers = {"Content-Type": "application/json"}
     
     # If no context (Wikipedia data) is found, use the question directly as context
